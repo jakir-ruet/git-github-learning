@@ -97,12 +97,38 @@ git remote add origin https://github.com/UserName/RepositoryName.git
 git remote add origin https://github.com/jakir-ruet/git-github-learning.git
 ```
 
-#### push the project to live github.com.
+#### push the project to live github.com
+
 Here, -u (upstream) flag creates a tracking reference for every branch that you successfully push onto the remote repository
 
 ```
 git push -u origin master
 ```
+
+#### check the status
+
+```
+git remote
+```
+
+origin — that is the default name Git gives to the server you cloned from
+
+#### check the fetch & push details
+
+```
+git remote -v
+
+```
+
+### Secure Shell
+
+It is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution.
+SSH applications are based on a client–server architecture, connecting an SSH client instance with an SSH server. SSH operates as a layered protocol suite comprising three principal hierarchical components: the transport layer provides server authentication, confidentiality, and integrity; the user authentication protocol validates the user to the server; and the connection protocol multiplexes the encrypted tunnel into multiple logical communication channels. The secure shell works two ways
+
+1. Symmetric Key Encryption
+2. Asymmetric Key Encryption
+
+
 
 ## Courtesy of Jakir
 
