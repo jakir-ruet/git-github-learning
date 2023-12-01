@@ -135,7 +135,7 @@ It is complex & secure. The encryption & decryption complete by using same **dif
 Generate the private & public key
 
 ```
-ssh-keygen -t rsa -b 4096 -C "jakir.ruet.bd@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "yourEmail@gmail.com"
 ```
 
 Check is 
