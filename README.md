@@ -126,9 +126,9 @@ It is a cryptographic network protocol for operating network services securely o
 SSH applications are based on a client–server architecture, connecting an SSH client instance with an SSH server. SSH operates as a layered protocol suite comprising three principal hierarchical components: the transport layer provides server authentication, confidentiality, and integrity; the user authentication protocol validates the user to the server; and the connection protocol multiplexes the encrypted tunnel into multiple logical communication channels. The secure shell works two ways
 
 1. **Symmetric Key Encryption**
-It is simple & less secure. The encryption & decryption complete by using same **same key** with both users. Its length is 128 or 256 bits.
+It is simple & less secure. The encryption & decryption complete by using same **same key** with both users. Its length is ***128*** or ***256*** bits. For example ***AES***, ***DES***, ***3DES***, and ***RC4***.
 2. **Asymmetric Key Encryption**
-It is complex & secure. The encryption & decryption complete by using same **different key** (private key & public key) with both users. The private is for host user and the public key is gust user. Its length is 2048 or higher.
+It is complex & secure. The encryption & decryption complete by using same **different key** (private key & public key) with both users. The private is for host user and the public key is gust user. Its length is 2048 or higher. For example ***RSA***, ***DSA***, ***ECC***, ***El Gamal***.
 
 ## Courtesy of Jakir
 
