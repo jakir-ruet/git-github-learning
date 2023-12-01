@@ -61,6 +61,48 @@ git config --global user.email "<jakir.ruet.bd@gmail.com>"
 git config --global init.defaultBranch master
 ```
 
+### Create First repository
+
+#### initialize the repository
+
+```
+git init
+```
+
+#### add all resource to repository
+
+```
+git add -A of git add .
+```
+
+#### making a initial commit
+
+```
+git commit -m
+```
+
+#### making default branch name
+
+```
+git branch -M master
+```
+
+#### add to remote
+
+```
+git remote add origin https://github.com/UserName/RepositoryName.git
+```
+
+```
+git remote add origin https://github.com/jakir-ruet/git-github-learning.git
+```
+
+#### push the project to live github.com. Here, -u (upstream) flag creates a tracking reference for every branch that you successfully push onto the remote repository
+
+```
+git push -u origin master
+```
+
 ## Courtesy of Jakir
 
 <a href="https://www.linkedin.com/in/jakir-ruet/">LinkedIn</a>
