@@ -128,7 +128,7 @@ SSH applications are based on a client–server architecture, connecting an SSH 
 1. **Symmetric Key Encryption**
 It is simple & less secure. The encryption & decryption complete by using same **same key** with both users. Its length is ***128*** or ***256*** bits. For example ***AES***, ***DES***, ***3DES***, and ***RC4***.
 2. **Asymmetric Key Encryption**
-It is complex & secure. The encryption & decryption complete by using same **different key** (private key & public key) with both users. The private is for host user and the public key is gust user. Its length is 2048 or higher. For example ***RSA***, ***DSA***, ***ECC***, ***El Gamal***.
+It is complex & secure. The encryption & decryption complete by using same **different key** (private key & public key) with both users. The private is for host user and the public key is gust user. Its length is ***2048*** or ***higher***. For example ***RSA***, ***DSA***, ***ECC***, ***El Gamal***.
 
 ## Courtesy of Jakir
 
