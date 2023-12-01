@@ -25,21 +25,40 @@ Git is easy to learn and has a tiny footprint with lightning fast performance. I
    - GitHub Functionalities
    - watch, history, issues, branches, conflicts resolution, merge, merge conflicts
 
+#### Environment Setup
 
-
-
-## Environment Setup
-
-```
-pip3 install virtualenv
-```
+##### git version check
 
 ```
-virtualenv venv
+git --version
+```
+
+#### check the command and it details
+
+```
+git or gir --help
+```
+
+#### check the config list
+
+```
+git config --list
+```
+
+#### setup the username and email
+
+```
+git config --global user.name "jakir-ruet"
 ```
 
 ```
-source venv/bin/activate
+git config --global user.email "<jakir.ruet.bd@gmail.com>"
+```
+
+#### setup the default branch
+
+```
+git config --global init.defaultBranch master
 ```
 
 ## Courtesy of Jakir
