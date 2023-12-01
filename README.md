@@ -97,7 +97,8 @@ git remote add origin https://github.com/UserName/RepositoryName.git
 git remote add origin https://github.com/jakir-ruet/git-github-learning.git
 ```
 
-#### push the project to live github.com. Here, -u (upstream) flag creates a tracking reference for every branch that you successfully push onto the remote repository
+#### push the project to live github.com.
+Here, -u (upstream) flag creates a tracking reference for every branch that you successfully push onto the remote repository
 
 ```
 git push -u origin master
