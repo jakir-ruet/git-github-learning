@@ -78,7 +78,7 @@ git add -A of git add .
 #### making a initial commit
 
 ```
-git commit -m
+git commit -m "initial commit"
 ```
 
 #### making default branch name
