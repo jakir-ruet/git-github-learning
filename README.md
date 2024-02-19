@@ -61,6 +61,9 @@ git config --global init.defaultBranch master
 ```bash
 git config --global --list
 ```
+```bash
+git config --global --edit
+```
 
 ### Create First repository
 
@@ -118,7 +121,6 @@ origin — that is the default name Git gives to the server you cloned from
 
 ```bash
 git remote -v
-
 ```
 
 ### SSH & GPG Connection (Secure Shell)
