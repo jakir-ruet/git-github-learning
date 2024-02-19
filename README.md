@@ -2,9 +2,7 @@
 [![Facebook-Page][facebook-shield-lapissoft]][facebook-url-lapissoft]
 [![Youtube][youtube-shield-lapissoft]][youtube-url-lapissoft]
 
-<h3 align="center">
-   Visit Us <a href="http://www.lapissoft.com">Lapis Soft</a>
-</h3>
+## Visit Us [Lapis Soft](http://www.lapissoft.com)
 
 ### Overview
 
@@ -29,71 +27,74 @@ Git is easy to learn and has a tiny footprint with lightning fast performance. I
 
 ##### git version check
 
-```
+```bash
 git --version
 ```
 
 #### check the command and it details
 
-```
+```bash
 git or gir --help
 ```
 
 #### check the config list
 
-```
+```bash
 git config --list
 ```
 
 #### setup the username and email
 
-```
+```bash
 git config --global user.name "jakir-ruet"
 ```
 
-```
+```bash
 git config --global user.email "<jakir.ruet.bd@gmail.com>"
 ```
 
 #### setup the default branch
 
-```
+```bash
 git config --global init.defaultBranch master
+```
+```bash
+git config --global --list
 ```
 
 ### Create First repository
 
 #### initialize the repository
 
-```
+```bash
 git init
 ```
 
 #### add all resource to repository
 
-```
+```bash
 git add -A of git add .
 ```
 
 #### making a initial commit
 
-```
+```bash
 git commit -m "initial commit"
 ```
 
 #### making default branch name
 
-```
+```bash
 git branch -M master
 ```
 
 #### add to remote
 
-```
+```bash
 git remote add origin https://github.com/UserName/RepositoryName.git
 ```
 
-```
+```bash
 git remote add origin https://github.com/jakir-ruet/git-github-learning.git
 ```
 
@@ -101,13 +102,13 @@ git remote add origin https://github.com/jakir-ruet/git-github-learning.git
 
 Here, -u (upstream) flag creates a tracking reference for every branch that you successfully push onto the remote repository
 
-```
+```bash
 git push -u origin master
 ```
 
 #### check the status
 
-```
+```bash
 git remote
 ```
 
@@ -115,7 +116,7 @@ origin — that is the default name Git gives to the server you cloned from
 
 #### check the fetch & push details
 
-```
+```bash
 git remote -v
 
 ```
@@ -134,29 +135,29 @@ It is complex & secure. The encryption & decryption complete by using same **dif
 
 Generate the private & public key
 
-```
+```bash
 ssh-keygen -t rsa -b 4096 -C "yourEmail@gmail.com"
 ```
 
 Check is 
 
-```
+```bash
 cat /root/.ssh/id_rsa & cat /root/.ssh/id_rsa
 ```
 
 Connect with agent
 
-```
+```bash
 ssh-add id_rsa
 ```
 
 Active the agent
 
-```
+```bash
 eval $(ssh-agent -s)
 ```
 
-```
+```bash
 clip < id_rsa.pub
 ```
 
@@ -184,8 +185,3 @@ clip < id_rsa.pub
 [facebook-url-lapissoft]: https://www.facebook.com/GoLapisSoft/
 [youtube-shield-lapissoft]: https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white
 [youtube-url-lapissoft]: https://www.youtube.com/@LapisSoft/featured
-
-
-```
-
-```
