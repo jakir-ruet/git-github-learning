@@ -162,6 +162,14 @@ eval $(ssh-agent -s)
 ```bash
 clip < id_rsa.pub
 ```
+Staging
+```bash
+git add . # staging everything
+git add filename # staging specific file
+git add *.html # staging .html extension a file only in a directory
+git add **/*.html # staging .html extension all file from all directory
+git status
+```
 
 ## Courtesy of Jakir
 
