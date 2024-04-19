@@ -207,7 +207,8 @@ In git there are two ways to save changes the git repository such as
 
 ```bash
 git stash list
-git stash
+git stash # apply stash
+git stash apply # withdraw stash
 
 ```
 
