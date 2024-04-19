@@ -188,13 +188,13 @@ git checkout master # for present commit
 ```
 
 ***Stash-Merge-Rebase***
-***[Stash:]***(https://git-scm.com/docs/git-stash) 
+***[Stash:](https://git-scm.com/docs/git-stash)***
 A developer working with a current branch wants to switch to another branch to work on something else, but the developer doesn't want to commit changes to your unfinished work. The solution to this issue is Git stash. Git stash takes your modified tracked files and saves them on a stack of unfinished changes that you can reapply at any time.
 ```bash
 git stash
 ```
 
-***[Merge:]***(https://git-scm.com/docs/git-merge)
+***[Merge:](https://git-scm.com/docs/git-merge)***
 Merging is Git's way of putting a forked history back together again. The `git merge` command lets you take the independent lines of development created by `git branch` and integrate them into a single branch.
 ```bash
 git branch
@@ -205,7 +205,7 @@ git branch -d feature # delete feature branch
 git merge master # merge feature to master branch. also we can merge in github on website.
 ```
 
-***[Rebase:]***(https://git-scm.com/docs/git-rebase)
+***[Rebase:](https://git-scm.com/docs/git-rebase)***
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.
 ```bash
 
