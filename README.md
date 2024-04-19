@@ -175,7 +175,7 @@ git add . # staging everything
 git mv info.txt info1.txt # renaming file
 ```
 
-Head
+***Head***
 In Git, HEAD refers to the currently checked-out branch's latest commit.
 You can think of the HEAD as the "current branch". When you switch branches with git checkout, the HEAD revision changes to point to the tip of the new branch.
 ```bash
@@ -184,6 +184,16 @@ git log
 git log --oneline
 git show commitId/HEAD
 git checkout specificCommit # go to specific commit
+git checkout master # for present commit
+```
+
+***Merge-Rebase***
+```bash
+git branch
+gir branch feature # creating feature branch
+git checkout feature # switched to feature branch
+git checkout master # switched to master branch
+git branch -d feature # delete feature branch
 ```
 
 ## Courtesy of Jakir
