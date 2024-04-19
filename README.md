@@ -229,6 +229,15 @@ git merge master # merge feature to master branch. also we can merge in github o
 
 ***[Rebase:](https://git-scm.com/docs/git-rebase)***
 Rebasing is the process of moving or combining a sequence of commits to a new base commit. Rebasing is most useful and easily visualized in the context of a feature branching workflow.
+  Merge vs Rebase
+  |  SL   | Merge                               | Rebase                                |
+  | :---: | :---------------------------------- | :------------------------------------ |
+  |   1   | Non-destructive command             | Destructive command                   |
+  |   2   | branch merge each other             | other branch add to master branch     |
+  |   3   | its comparatively easy              | its comparatively hard                |
+  |   4   | suitable for less active branch     | suitable for frequently active branch |
+  |   5   | its non-linear style branching      | its linear style branching            |
+  |   6   | exit master branch & other branches | always exit master branch             |
 ```bash
 
 ```
