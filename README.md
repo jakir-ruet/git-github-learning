@@ -163,14 +163,14 @@ eval $(ssh-agent -s)
 clip < id_rsa.pub
 ```
 
-Staging-upstaging
+Staging-Unstaging
 ```bash
 git add . # staging everything
 git add filename # staging specific file
 git add *.html # staging .html extension a file only in a directory
 git add **/*.html # staging .html extension all file from all directory
 git status
-git rm --cached index.html # upstaging the index.html file
+git rm --cached index.html # unstaging the index.html file
 git add . # staging everything
 git mv info.txt info1.txt # renaming file
 ```
@@ -190,9 +190,25 @@ git checkout master # for present commit
 ***Stash-Merge-Rebase***
 
 ***[Stash:](https://git-scm.com/docs/git-stash)***
-A developer working with a current branch wants to switch to another branch to work on something else, but the developer doesn't want to commit changes to your unfinished work. The solution to this issue is Git stash. Git stash takes your modified tracked files and saves them on a stack of unfinished changes that you can reapply at any time.
+
+In git there are two ways to save changes the git repository such as
+- commit
+  Developer is working on a project and wants to preserve the changes with committing them.
+- stash (secret or hidden)
+  Developer is working on a project and wants to preserve the changes without committing them.
+
+  Stash vs Stage
+  |  SL   | Stash                                 | Stage                                     |
+  | :---: | :------------------------------------ | :---------------------------------------- |
+  |   1   | Object adding as backup               | Object adding process (`git add .`)       |
+  |   2   | Not use commit                        | Use commit                                |
+  |   3   | Use for switch a task to another task | Not use for switch a task to another task |
+
+
 ```bash
+git stash list
 git stash
+
 ```
 
 ***[Merge:](https://git-scm.com/docs/git-merge)***
