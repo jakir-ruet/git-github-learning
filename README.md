@@ -209,7 +209,11 @@ In git there are two ways to save changes the git repository such as
 git stash list
 git stash # apply stash
 git stash apply # withdraw stash
-
+git stash list
+git stash apply 1 # withdraw stash no 1
+git stash pop # remove state of stash
+git stash show # show summary of stash
+git stash clear # clear all stash
 ```
 
 ***[Merge:](https://git-scm.com/docs/git-merge)***
