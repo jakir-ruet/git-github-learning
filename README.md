@@ -241,6 +241,7 @@ Rebasing is the process of moving or combining a sequence of commits to a new ba
 ```bash
 git branch rebase-test
 git checkout rebase-test
+git checkout master
 git rebase master
 ```
 
