@@ -188,6 +188,7 @@ git checkout master # for present commit
 ```
 
 ***Stash-Merge-Rebase***
+
 ***[Stash:](https://git-scm.com/docs/git-stash)***
 A developer working with a current branch wants to switch to another branch to work on something else, but the developer doesn't want to commit changes to your unfinished work. The solution to this issue is Git stash. Git stash takes your modified tracked files and saves them on a stack of unfinished changes that you can reapply at any time.
 ```bash
