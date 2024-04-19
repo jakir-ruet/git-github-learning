@@ -162,7 +162,8 @@ eval $(ssh-agent -s)
 ```bash
 clip < id_rsa.pub
 ```
-Staging
+
+Staging-upstaging
 ```bash
 git add . # staging everything
 git add filename # staging specific file
