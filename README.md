@@ -194,6 +194,7 @@ gir branch feature # creating feature branch
 git checkout feature # switched to feature branch
 git checkout master # switched to master branch
 git branch -d feature # delete feature branch
+git merge master # merge feature to master branch. also we can merge in github on website.
 ```
 
 ## Courtesy of Jakir
