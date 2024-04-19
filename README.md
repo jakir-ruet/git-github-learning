@@ -171,7 +171,7 @@ git add **/*.html # staging .html extension all file from all directory
 git status
 git rm --cached index.html # upstaging the index.html file
 git add . # staging everything
-git mv index.html index1.html
+git mv info.txt info1.txt # renaming file
 ```
 
 ## Courtesy of Jakir
