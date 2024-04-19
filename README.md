@@ -239,7 +239,9 @@ Rebasing is the process of moving or combining a sequence of commits to a new ba
   |   5   | its non-linear style branching      | its linear style branching            |
   |   6   | exit master branch & other branches | always exit master branch             |
 ```bash
-
+git branch rebase-test
+git checkout rebase-test
+git rebase master
 ```
 
 ## Courtesy of Jakir
